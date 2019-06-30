@@ -1,0 +1,14 @@
+.footer {
+    margin: 0;
+    background: var(--black);
+    height: 116px;
+}
+
+.footer__wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.footer__logo {
+    padding-top: 56px;
+}

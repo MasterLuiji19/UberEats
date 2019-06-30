@@ -1,0 +1,20 @@
+.main {
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    z-index: 1;
+}
+
+.menu-block {
+    margin: 0;
+    margin-top: 56px;
+}
+
+.menu-block__title {
+    margin: 0;
+    font-size: 22px;
+    color: var(--text);
+    margin-bottom: 36px;
+    font-weight: 400;
+}

@@ -1,0 +1,18 @@
+.search {
+    width: 100%;
+    padding: 8px 0 15px;
+    position: relative;
+    border-bottom: 1px solid var(--input-border);
+}
+
+.search__img {
+    position: absolute;
+}
+
+.search__input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-left: 28px;
+}

@@ -1,0 +1,41 @@
+.card {
+    background: var(--card);
+    padding-bottom: 21px;
+    margin-bottom: 16px;
+    width: 366px;
+}
+
+.card__link {
+    text-decoration: none;
+    color: var(--text);
+}
+.card__img {
+    width: 366px;
+    height: 256px;
+    border-radius: 4px;
+
+}
+
+.card__title {
+    margin: 0;
+    font-weight: 400;
+    margin-top: 16px;
+    line-height: 24px;
+
+}
+
+.card__categories {
+    margin: 0;
+    font-size: 14px;
+    color: var(--price);
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card__time-delivery {
+    margin: 0;
+    font-size: 13px;
+    line-height: 21px;
+}

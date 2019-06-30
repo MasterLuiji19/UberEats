@@ -1,0 +1,56 @@
+.restaurant-card {
+    margin-top: 72px;
+    background: url("./img/pushkin.png") no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    height: 364px;
+    display: flex;
+    justify-content: center;
+}
+
+.restaurant-card__background {
+    width: 389px;
+    height: 204px;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.restaurant-card__wrapper {
+    width: 1124px;
+}
+
+.restaurant-card__title {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.restaurant-card__footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant-card__price {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--price);
+}
+
+.restaurant-card__time {
+    font-size: 13px;
+    line-height: 15px;
+    color: var(--white);
+    background: var(--black);
+    border-radius: 16px;
+    width: 97px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
