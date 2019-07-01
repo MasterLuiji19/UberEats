@@ -1,9 +1,15 @@
+.choose__title {
+	margin: 0 auto;
+	width: 1170px;
+	padding: 20px 0;
+}
+
 .choose__first-line {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
     justify-content: space-between;
-    width: 1124px;
+    width: 1170px;
     margin: auto;
 }

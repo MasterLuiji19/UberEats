@@ -1,5 +1,5 @@
 import React from 'react';
-import './search.css';
+import './Search.css';
 import search__img from './img/search.svg';
 
 export function Search() {

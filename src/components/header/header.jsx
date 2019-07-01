@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 import logo from './img/logo.svg';
 import basket from './img/basket.svg';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"

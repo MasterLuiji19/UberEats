@@ -4,8 +4,11 @@ import {MenuRestaurant} from "../MenuRestaurant/MenuRestaurant";
 
 export function ChooseCard() {
     return (
+    <>
+        <div>
+            <h2 className="choose__title">Закуски</h2>
+        </div>
         <ul className="choose__first-line">
-            <span className="choose__title">Закуски</span>
             <MenuRestaurant/>
             <MenuRestaurant/>
             <MenuRestaurant/>
@@ -13,5 +16,6 @@ export function ChooseCard() {
             <MenuRestaurant/>
             <MenuRestaurant/>
         </ul>
+    </>
     );
 }
