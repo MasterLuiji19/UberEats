@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {GetHeader} from './components/header/header.jsx';
+import {GetHeader} from './components/Header/Header.jsx';
 import {MainPage} from "./components/MainPage/MainPage.jsx";
 import {Footer} from './components/Footer/Footer.jsx';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
