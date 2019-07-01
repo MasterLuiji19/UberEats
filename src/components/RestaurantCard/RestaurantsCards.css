@@ -13,7 +13,11 @@
     width: 366px;
     height: 256px;
     border-radius: 4px;
+    transition: 0.3s;
+}
 
+.card__img:hover {
+    transform: translateY(-4px);
 }
 
 .card__title {
