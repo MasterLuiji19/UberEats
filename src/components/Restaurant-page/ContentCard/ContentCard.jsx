@@ -1,7 +1,6 @@
 import React from 'react';
 import './ContentCard.css';
 import {restaurant} from '../infoCard.js';
-import {restaurants} from "../../MenuCards/menucards";
 
 
 export function ContentCard() {
