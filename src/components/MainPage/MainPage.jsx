@@ -1,5 +1,5 @@
 import React from 'react';
-import {Search} from "../Search/search.jsx";
+import {Search} from "../Search/Search.jsx";
 import './MainPage.css'
 import {MenuCards} from "../MenuCards/MenuCards.jsx";
 

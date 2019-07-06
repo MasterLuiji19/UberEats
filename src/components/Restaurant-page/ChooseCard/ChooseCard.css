@@ -1,9 +1,16 @@
+.choose__title {
+  margin: 0 auto;
+  width: 1170px;
+  font-size: 22px;
+  padding-bottom: 32px;
+}
+
 .choose__first-line {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    justify-content: space-between;
-    width: 1124px;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  width: 1170px;
+  margin: auto;
 }

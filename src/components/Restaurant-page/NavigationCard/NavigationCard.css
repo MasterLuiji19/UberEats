@@ -1,0 +1,34 @@
+.restaurant-navigation {
+  margin-bottom: 56px;
+  border: 1px solid var(--input-border);
+  position: sticky;
+  top: 72px;
+  background: var(--white);
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+.restaurant-navigation__wrapper {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.restaurant-navigation__nav {
+  margin: 0;
+  padding: 30px 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.restaurant-navigation__item {
+  text-decoration: none;
+  margin-left: 40px;
+  color: var(--price);
+  cursor: pointer;
+}
+
+.restaurant-navigation__nav li:first-child {
+  margin: 0;
+}
+
+.restaurant-navigation__item:active {
+  color: var(--green);
+}
