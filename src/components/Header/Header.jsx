@@ -12,7 +12,7 @@ export function Header() {
                         <Link className="logo-header" to="/"><img className="logo" src={logo} alt="Logo" /></Link>
                     </div>
                     <div className="box-header__local">
-                        <Link className="box-header__button button" to="blabla">asap</Link>
+                        <Link className="box-header__button button" href="blabla">asap</Link>
                         <span className="box-header__text">to</span>
                         <input className="box-header__address" type="search" placeholder="ul. Tarasivska St, 16 " />
                     </div>
