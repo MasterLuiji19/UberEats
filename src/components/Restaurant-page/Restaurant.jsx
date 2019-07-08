@@ -8,7 +8,6 @@ import {ChooseCard} from '../Restaurant-page/ChooseCard/ChooseCard.jsx';
 export function Restaurant() {
     return (
         <>
-            <Header/>
             <ContentCard/>
             <NavigationCard/>
             <ChooseCard/>
