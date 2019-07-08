@@ -17,7 +17,7 @@
 }
 
 .card__img:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
 }
 
 .card__title {
