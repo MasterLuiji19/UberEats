@@ -1,8 +1,12 @@
 .card {
-  background: var(--card);
+  background: var(--white);
   padding-bottom: 21px;
   margin-bottom: 16px;
   width: 366px;
+}
+
+.card:hover {
+  background: var(--card);
 }
 
 .card__link {
