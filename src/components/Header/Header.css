@@ -27,10 +27,12 @@
   color: var(--text);
   border: 1px solid var(--button);
   border-radius: 2px;
-  padding: 8px 12px;
+  line-height: 24px;
+  padding: 8px 0;
 }
 .box-header__button {
   text-transform: uppercase;
+  padding: 8px 12px;
 }
 
 .box-header__text {
@@ -41,8 +43,8 @@
   border: 1px solid var(--button);
   background: url(./img/location.svg) no-repeat 8px;
   font-size: 16px;
-  padding: 8px 0;
-  padding-left: 36px;
+  line-height: 24px;
+  padding: 8px 0 8px 36px;
 }
 
 .registred-block {
@@ -51,7 +53,9 @@
 }
 .registred-block__sign {
   font-size: 13px;
-  line-height: 24px;
+  display: block;
+  width: 78px;
+  text-align: center;
 }
 
 .registred-block__register {
@@ -59,7 +63,9 @@
   color: var(--white);
   margin-left: 16px;
   font-size: 13px;
-  line-height: 24px;
+  display: block;
+  width: 78px;
+  text-align: center;
 }
 
 .register-block__basket {
