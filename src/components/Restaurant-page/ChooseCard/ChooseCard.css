@@ -14,3 +14,13 @@
   width: 1170px;
   margin: auto;
 }
+
+.choose-card {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.choose-title {
+  font-size: 22px;
+  font-weight: normal;
+}
