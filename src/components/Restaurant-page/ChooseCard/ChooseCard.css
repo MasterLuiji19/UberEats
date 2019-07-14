@@ -23,4 +23,6 @@
 .choose-title {
   font-size: 22px;
   font-weight: normal;
+  padding-top: 200px;
+  margin-top: -200px;
 }
