@@ -9,6 +9,7 @@
   --footer: #262626;
   --green: #327430;
   --hover-card: #f9f9f9;
+  scroll-behavior: smooth;
 }
 
 body {
