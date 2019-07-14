@@ -5,8 +5,10 @@
   border-bottom: 1px solid var(--input-border);
 }
 
-.search__img {
+.search::before {
+  content: url(./img/search.svg);
   position: absolute;
+  cursor: pointer;
 }
 
 .search__input {
