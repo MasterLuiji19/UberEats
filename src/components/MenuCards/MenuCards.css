@@ -1,5 +1,5 @@
 .menu-cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 366px 366px 366px;
+  grid-column-gap: 20px;
 }
