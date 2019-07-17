@@ -1,5 +1,5 @@
 .menu-cards {
   display: grid;
-  grid-template-columns: 366px 366px 366px;
-  grid-column-gap: 20px;
+  grid-template-columns: 370px 370px 370px;
+  grid-column-gap: 30px;
 }

@@ -2,7 +2,7 @@
   background: var(--white);
   padding-bottom: 21px;
   margin-bottom: 16px;
-  width: 366px;
+  width: 370px;
 }
 
 .card:hover {
@@ -14,7 +14,7 @@
   color: var(--text);
 }
 .card__img {
-  width: 366px;
+  width: 370px;
   height: 256px;
   border-radius: 4px;
   transition: 0.3s;
