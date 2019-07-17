@@ -5,7 +5,7 @@ import { MainPage } from "./components/MainPage/MainPage.jsx";
 import { Footer } from "./components/Footer/Footer.jsx";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Restaurant } from "./components/Restaurant-page/Restaurant.jsx";
-import ScrollToTop from "./ScrollToTop/ScrollToTop.jsx";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop.jsx";
 
 function App() {
   return (
