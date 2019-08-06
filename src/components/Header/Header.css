@@ -1,10 +1,10 @@
 .header {
   margin: 0 auto;
   width: 100%;
-  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  box-shadow: 0px 0px 26px rgba(38, 38, 38, 0.16);
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 1;
   background: var(--white);
 }
 
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
+  padding: 26px 0;
 }
 
 .box-header__local {

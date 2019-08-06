@@ -1,7 +1,6 @@
 import React from 'react'
 import './MenuRestaurant.css'
 import {restaurant} from '../infoCard.js';
-import dishCard from './img/dish-card.png'
 
 export function MenuRestaurant(props) {
     let dishPhoto = restaurant.items[props.id].imageUrl;
@@ -15,9 +14,15 @@ export function MenuRestaurant(props) {
                     <span className="menu-restaurant__consist">{restaurant.items[props.id].itemDescription}</span>
                     <span className="menu-restaurant__price">{restaurant.items[props.id].price/100} &#8372;</span>
                 </div>
-                {dishPhoto ? (
-                    <img className="menu-restaurant__image" src={restaurant.items[props.id].imageUrl} alt=""/>)
-                    : <img className="menu-restaurant__image" src={dishCard} alt=""/>}
+                {dishPhoto && (
+                    <div>
+                        <img
+                            className="menu-restaurant__image"
+                            src={restaurant.items[props.id].imageUrl}
+                            alt=""
+                        />
+                    </div>
+                )}
             </a>
         </li>
     );

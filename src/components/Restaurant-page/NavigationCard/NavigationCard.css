@@ -1,10 +1,11 @@
 .restaurant-navigation {
   margin-bottom: 56px;
-  border: 1px solid var(--input-border);
+  border-bottom: 1px solid var(--input-border);
   position: sticky;
   top: 72px;
   background: var(--white);
-  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+  opacity: 0.95;
+  z-index: 1;
 }
 .restaurant-navigation__wrapper {
   margin: 0 auto;
